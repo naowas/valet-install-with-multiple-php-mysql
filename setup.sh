@@ -7,6 +7,16 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ~/.zshrc
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
+#set powerleve10k as default theme (choose any one of them)
+#Set ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc
+vi .zshrc / gedit .zshrc / kate .zshrc / kwrite .zshrc
+
+
+# Install fonts for powerlevel10k
+https://github.com/romkatv/powerlevel10k/blob/master/font.md
+
+# set MesloLGS as default font in termianl
+
 sudo add-apt-repository ppa:ondrej/php
 sudo apt-get install php7.2 php7.2-fpm 
 sudo apt-get install php7.4 php7.4-fpm
