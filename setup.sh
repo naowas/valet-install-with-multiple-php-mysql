@@ -28,6 +28,8 @@ wget -qO - https://packages.sury.org/php/apt.gpg | sudo apt-key add -
 
 sudo apt-get install php7.2 php7.2-fpm 
 sudo apt-get install php7.4 php7.4-fpm
+sudo apt-get install php8.1 php8.1-fpm
+
 
 curl -sS https://getcomposer.org/installer -o composer-setup.php
 sudo php7.2 composer-setup.php --install-dir=/usr/local/bin --filename=composer
@@ -35,6 +37,8 @@ sudo php7.4 composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
 sudo apt install php7.2-cli php7.2-curl php7.2-mbstring php7.2-mcrypt php7.2-xml php7.2-zip php7.2-pdo-mysql php7.2-gd
 sudo apt install php7.4-cli php7.4-curl php7.4-mbstring php7.4-mcrypt php7.4-xml php7.4-zip php7.4-pdo-mysql php7.4-gd
+sudo apt install php8.1-cli php8.1-curl php8.1-mbstring php8.1-mcrypt php8.1-xml php8.1-zip php8.1-pdo-mysql php8.1-gd
+
 
 composer global require cpriego/valet-linux
 echo "export PATH=$PATH:$HOME/.config/composer/vendor/bin" >> ~/.zshrc
