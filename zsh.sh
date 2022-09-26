@@ -18,3 +18,6 @@ plugins=(
     # other plugins...
     zsh-autosuggestions
 )
+
+source ~/.zshrc
+
